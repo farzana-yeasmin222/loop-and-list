@@ -1,0 +1,12 @@
+pythonimport math
+print(math.sqrt(25))
+print(math.pow(10, 2))
+print(math.factorial(5))
+print(math.log10(100))
+print(math.log10(1000))
+print(math.sin(math.radians(30)))
+print(math.cos(math.radians(30)))
+print(math.cos(math.radians(60)))
+print(math.tan(math.radians(45)))
+print(math.pi)
+print(math.e)
