@@ -11,3 +11,4 @@ for i in range (len(readings)):
    # low_quality_log = []
    # Filter
    i = 0
+   #commit
