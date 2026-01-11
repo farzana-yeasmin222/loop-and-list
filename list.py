@@ -8,7 +8,13 @@ for i in range (len(readings)):
 for i in range (len(readings)):
    readings [i] = readings [i] * 1.1
    print (readings)
-   # low_quality_log = []
    # Filter
-   i = 0
-   #commit
+   low_quality_log = []
+   # Separate readings into two lists
+for value in readings:
+      if value <15.0:
+       low_quality_log.append(value)
+       # Keep only values >=15.0
+       readings = [item for item in readings if item >=15.0 ]
+       print(readings)
+       print(low_quality_log)
