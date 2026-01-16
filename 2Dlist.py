@@ -10,7 +10,9 @@ all_grades = [
         [88, 92, 70],   # Student 0 
         [45, 80, 77],   # Student 1 (Has a 45!)  
         [99, 100, 95]   # Student 2
-     # ]
+      ]
+
+check_failing(all_grades)
 
 
  # Task 2
@@ -18,11 +20,11 @@ def active_row(screen, row_index):
       for i in range(len(screen[row_index])):
         screen[row_index][i]= 1 
         
-monitor = [
+monitor = [ 
            [0, 0, 0], 
            [0, 0, 0], 
            [0, 0, 0]
-]
+ ]
 active_row(monitor,1)
 print (monitor)
    

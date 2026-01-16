@@ -1,13 +1,24 @@
 
-# step 1: mark sheet collect
-# step 2: 50 r niche marksheet gula alada korte hobe
-# step 3: 2nd step e pawa student gular roll no. published korte hobe
+# number = [12,13,14]
+ 
+# print(type(number))
+# people = list(12,13,14)
+# print(people)
 
+#for bcfd in range(1,16,3):
+#people = ["Alice","Bob","David"]
+#print(len(people))
 
-def add():
-    x = 2
-    y = 5
-    result = x + y 
-    return result
+#mixed = ["Alice","Bob","David",12,13,14]
+#for value in (mixed):
+   #print (value)
 
-print(add())
+#print(mixed[5])
+#mixed.insert(2,"islam")
+#print(mixed)
+
+people = ["Alice","Bob","David", "Mahir", "Islam"]
+del people [0:]
+print(people)
+    
+
